@@ -1,0 +1,33 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.contenar{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background: #959595;
+}
+.todolist{
+ margin: 10px;
+}
+#input{
+   font-size: 20px;
+ outline: none;
+}
+.btn{
+    font-size: 20px;
+}
+.root ul{
+    width: 300px;
+    padding: 5px ;
+    border: 1px soild red;
+    background-color:white;
+    margin: 5px;
+    text-align: center;
+    
+}
